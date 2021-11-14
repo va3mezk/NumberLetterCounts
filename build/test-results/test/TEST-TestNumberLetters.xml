@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestNumberLetters" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-11-14T13:53:02" hostname="MacBook-Air-de-Alfredo.local" time="0.059">
+<testsuite name="TestNumberLetters" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-11-14T14:33:11" hostname="MacBook-Air-de-Alfredo.local" time="0.075">
   <properties/>
-  <testcase name="test #1" classname="TestNumberLetters" time="0.021"/>
-  <testcase name="test #2" classname="TestNumberLetters" time="0.001"/>
-  <testcase name="test #3" classname="TestNumberLetters" time="0.001"/>
-  <testcase name="test #4" classname="TestNumberLetters" time="0.012"/>
-  <testcase name="test #5" classname="TestNumberLetters" time="0.02"/>
+  <testcase name="test one thousand" classname="TestNumberLetters" time="0.054"/>
+  <testcase name="test two hundred twenty-two" classname="TestNumberLetters" time="0.001"/>
+  <testcase name="test one" classname="TestNumberLetters" time="0.0"/>
+  <testcase name="test fifty" classname="TestNumberLetters" time="0.001"/>
+  <testcase name="test six hundred forty-five" classname="TestNumberLetters" time="0.017"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
