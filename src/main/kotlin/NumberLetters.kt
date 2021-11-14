@@ -10,13 +10,13 @@ object NumberLetters {
         return allNumbers.count()
     }
     private fun numberToLetter(number:Int):String{
-        val millar=number / 1000
-        val centena= (number % 1000) / 100
-        val decena= ((number % 1000) % 100) / 10
-        val unidad = ((number % 1000) % 100) % 10
+        val thousand=number / 1000
+        val hundred= (number % 1000) / 100
+        val ten= ((number % 1000) % 100) / 10
+        val unit = ((number % 1000) % 100) % 10
         var changeToString=""
-        if(millar==1) changeToString="onethousand"
-        when(centena){
+        if(thousand==1) changeToString="onethousand"
+        when(hundred){
             1-> changeToString+="onehundred"
             2->changeToString+="twohundred"
             3-> changeToString+="threehundred"
@@ -27,9 +27,9 @@ object NumberLetters {
             8->changeToString+="eighthundred"
             9-> changeToString+="ninehundred"
         }
-        when(decena){
+        when(ten){
             1->{
-                when (unidad) {
+                when (unit) {
                     0 -> changeToString += "ten"
                     1 -> changeToString += "eleven"
                     2 -> changeToString += "twelve"
@@ -51,8 +51,8 @@ object NumberLetters {
             8->changeToString+="eighty"
             9-> changeToString+="ninety"
         }
-        if (decena>=2 || decena==0) {
-            when (unidad) {
+        if (ten>=2 || ten==0) {
+            when (unit) {
                 1 -> changeToString += "one"
                 2 -> changeToString += "two"
                 3 -> changeToString += "three"
