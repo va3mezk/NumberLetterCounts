@@ -1,3 +1,3 @@
-fun main(args: Array<String>) {
+fun main() {
     println(NumberLetters.countLetter(1000))
 }
