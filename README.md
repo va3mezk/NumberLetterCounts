@@ -8,11 +8,11 @@ If all the numbers from 1 to 1000 (one thousand) inclusive were written out in w
 
 NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 
-##Targets
+## Targets
 
 ✅ Task 1 → If all the numbers from 1 to 1000 (one thousand) inclusive were written out in words, how many letters would be used?
 
-##How did I get to this solution?
+## How did I get to this solution?
 
 🇺🇸
 1.- divide the quantity by digit, thousand, hundred, ten unit.
